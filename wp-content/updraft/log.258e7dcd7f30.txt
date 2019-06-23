@@ -1,0 +1,109 @@
+0000.007 () Opened log file at time: Sat, 09 Mar 2019 15:47:26 +0000 on http://34.73.224.205
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.6 WP: 5.0.3 PHP: 7.0.33-0+deb9u1 (apache2handler, Linux wordpress-2-vm 4.9.0-8-amd64 #1 SMP Debian 4.9.130-2 (2018-10-27) x86_64) MySQL: 5.7.25 WPLANG: fr_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.6M | 4M) multisite: N openssl: OpenSSL 1.1.0j  20 Nov 2018 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 6921.3 MB
+0000.023 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.024 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.030 () Entity: db
+0000.030 () restore_backup(backup_file=backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-db.gz, type=db, info=a:0:{}, last_one=)
+0000.030 () Unpacking backup... (backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-db.gz, 0.3 Mb)
+0000.031 () Database successfully unpacked
+0000.031 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.031 () Using direct MySQL access; value of use_mysqli is: 1
+0000.058 () Tried to raise max_allowed_packet from 4 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.059 () Max packet size: 4 MB
+0000.059 () Entering maintenance mode
+0000.059 () Activation du mode maintenance&#8230;
+0000.060 () Backup of: http://34.73.224.205
+0000.061 () Content URL: http://34.73.224.205/wp-content
+0000.061 () Uploads URL: http://34.73.224.205/wp-content/uploads
+0000.061 () Old table prefix: wp_
+0000.061 () Site information: multisite=0
+0000.062 () New table prefix: wp_
+0000.074 () Processing table (InnoDB): wp_options
+0000.331 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.341 () Processing table (InnoDB): wp_users
+0000.375 () Processing table (InnoDB): wp_usermeta
+0000.408 () Processing table (InnoDB): wp_commentmeta
+0000.448 () Processing table (InnoDB): wp_comments
+0000.489 () Processing table (InnoDB): wp_links
+0000.520 () Processing table (InnoDB): wp_postmeta
+0000.638 () Processing table (InnoDB): wp_posts
+0000.736 () Processing table (InnoDB): wp_term_relationships
+0000.763 () Processing table (InnoDB): wp_term_taxonomy
+0000.796 () Processing table (InnoDB): wp_termmeta
+0000.824 () Processing table (InnoDB): wp_terms
+0000.859 () Processing table (InnoDB): wp_woocommerce_order_itemmeta
+0000.894 () Processing table (InnoDB): wp_woocommerce_payment_tokenmeta
+0000.922 () Processing table (InnoDB): wp_revslider_css
+0000.936 () Database queries processed: 50 in 0.90 seconds
+0000.965 () Processing table (InnoDB): wp_revslider_layer_animations
+0000.986 () Processing table (InnoDB): wp_revslider_navigations
+0001.008 () Processing table (InnoDB): wp_revslider_sliders
+0001.034 () Processing table (InnoDB): wp_revslider_slides
+0001.058 () Processing table (InnoDB): wp_revslider_static_slides
+0001.082 () Processing table (InnoDB): wp_wc_download_log
+0001.112 () Processing table (InnoDB): wp_wc_webhooks
+0001.136 () Processing table (InnoDB): wp_woocommerce_api_keys
+0001.164 () Processing table (InnoDB): wp_woocommerce_attribute_taxonomies
+0001.188 () Processing table (InnoDB): wp_woocommerce_downloadable_product_permissions
+0001.228 () Processing table (InnoDB): wp_woocommerce_log
+0001.251 () Processing table (InnoDB): wp_woocommerce_order_items
+0001.278 () Processing table (InnoDB): wp_woocommerce_payment_tokens
+0001.303 () Processing table (InnoDB): wp_woocommerce_sessions
+0001.330 () Processing table (InnoDB): wp_woocommerce_shipping_zone_locations
+0001.358 () Processing table (InnoDB): wp_woocommerce_shipping_zone_methods
+0001.382 () Processing table (InnoDB): wp_woocommerce_shipping_zones
+0001.404 () Processing table (InnoDB): wp_woocommerce_tax_rate_locations
+0001.434 () Processing table (InnoDB): wp_woocommerce_tax_rates
+0001.473 () Unlocking database and leaving maintenance mode
+0001.473 () Désactivation du mode maintenance&#8230;
+0001.474 () Finished: lines processed: 94 in 1.44 seconds
+0001.474 () Cleaning up rubbish...
+0001.482 () Entity: plugins
+0001.482 () restore_backup(backup_file=backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.482 () Unpacking backup... (backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-plugins.zip, 28.3 MB)
+0001.482 () Unzipping backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-plugins.zip to /var/www/html/wp-content/upgrade/7e27f60a/ using UpdraftPlus_ZipArchive, starting index 0
+0001.649 () Unzip progress: 1002 out of 5614 files (1.2 MB, plugins/meta-box/js/select2/i18n/lt.js)
+0001.791 () Unzip progress: 2003 out of 5614 files (15 MB, plugins/js_composer/assets/less/modules/vc_modals.less)
+0001.897 () Unzip progress: 3004 out of 5614 files (22.8 MB, plugins/updraftplus/vendor/psr/log/Psr/Log/LogLevel.php)
+0002.209 () Unzip progress: 4005 out of 5614 files (79.1 MB, plugins/ot-themes-one-click-import/extensions/wbc_importer/demo-data/menu-bottom-light/widgets.json)
+0002.383 () Unzip progress: 5006 out of 5614 files (105.7 MB, plugins/woocommerce/assets/js/admin/api-keys.min.js)
+0002.469 () Unzip progress: 5614 out of 5614 files (116.5 MB, plugins/ot_testimonial/images/testimonial.png)
+0002.470 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.470 () Moving old data: can potentially use wp_filesystem method / -old
+0002.470 () Moving old data out of the way...
+0002.888 () Top-level entities being moved: wp-fastest-cache, akismet, index.php, meta-box, ot_portfolio, ot_service, js_composer, ot_process, contact-form-7, updraftplus, ot-themes-one-click-import, woocommerce, redux-framework, classic-editor, ot_testimonial
+0002.891 () Moving unpacked backup into place...
+0003.152 () Top-level entities being moved: wp-fastest-cache, akismet, index.php, meta-box, ot_portfolio, ot_service, js_composer, ot_process, contact-form-7, updraftplus, ot-themes-one-click-import, woocommerce, redux-framework, classic-editor, ot_testimonial
+0003.154 () Cleaning up rubbish...
+0003.163 () Entity: themes
+0003.163 () restore_backup(backup_file=backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-themes.zip, type=themes, info=a:2:{s:4:"path";s:31:"/var/www/html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0003.163 () Unpacking backup... (backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-themes.zip, 4.3 MB)
+0003.164 () Unzipping backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-themes.zip to /var/www/html/wp-content/upgrade/c0a480e6/ using UpdraftPlus_ZipArchive, starting index 0
+0003.238 () Unzip progress: 426 out of 426 files (7.7 MB, themes/twentynineteen/style-editor-customizer.css)
+0003.239 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.239 () Moving old data: can potentially use wp_filesystem method / -old
+0003.239 () Moving old data out of the way...
+0003.261 () Top-level entities being moved: twentyseventeen, index.php, twentysixteen, archi, twentynineteen
+0003.262 () Moving unpacked backup into place...
+0003.281 () Top-level entities being moved: twentyseventeen, index.php, twentysixteen, archi, twentynineteen
+0003.282 () Cleaning up rubbish...
+0003.289 () Entity: uploads
+0003.289 () restore_backup(backup_file=backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0003.289 () Unpacking backup... (backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-uploads.zip, 30.1 MB)
+0003.289 () Unzipping backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-uploads.zip to /var/www/html/wp-content/upgrade/6f429104/ using UpdraftPlus_ZipArchive, starting index 0
+0003.445 () Unzip progress: 1002 out of 1336 files (24.5 MB, uploads/revslider/templates/parallaxzoomslices/slide4.jpg)
+0003.512 () Unzip progress: 1336 out of 1336 files (31.7 MB, uploads/wc-logs/paypal-2019-03-08-2dae083eede94bbafd976e436cb48372.log)
+0003.512 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.512 () Moving old data: can potentially use wp_filesystem method / -old
+0003.512 () Moving old data out of the way...
+0003.591 () Moving unpacked backup into place...
+0003.652 () Cleaning up rubbish...
+0003.660 () Entity: others
+0003.660 () restore_backup(backup_file=backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-others.zip, type=others, info=a:2:{s:4:"path";s:24:"/var/www/html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0003.660 () Unpacking backup... (backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-others.zip, 0.9 MB)
+0003.660 () Unzipping backup_2019-03-08-1712_YNT_Construction_e9ead4b7b65a-others.zip to /var/www/html/wp-content/upgrade/766359e4/ using UpdraftPlus_ZipArchive, starting index 0
+0003.686 () Unzip progress: 24 out of 24 files (3.2 MB, languages/themes/twentyseventeen-fr_CA.mo)
+0003.686 () Cleaning up rubbish...
+0003.705 () Restore successful!
+0003.705 () Restore successful
